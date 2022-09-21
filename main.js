@@ -1,8 +1,11 @@
 const { Player } = require('discord-player')
 const { Client, GatewayIntentBits } = require('discord.js')
+const schedule = require('node-schedule')
 const express = require('express')
 const app = express()
 const port = process.env.PORT || 5000
+
+const Axios = require('axios').default
 
 app.get('/', (req, res) => {
   res.send('Me Wake Up!')
@@ -31,3 +34,9 @@ require('./src/loader')
 require('./src/events')
 
 client.login(client.config.app.token)
+
+schedule.scheduleJob('0 */25 1-8 * * *', () => {
+  Axios.get('https://thanh-bot.herokuapp.com/')
+    .then((res) => console.log(res))
+    .catch((err) => console.log(err))
+})
