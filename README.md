@@ -6,7 +6,7 @@ Looking for a code for a music bot ? This fully open source code is made for you
 
 If you need help with this project, to get support faster you can join the help server by just clicking [here](https://discord.gg/5cGSYV8ZZj).
 
-*If you don't have any development knowledge, it is recommended to join the Discord support server to get help.*
+_If you don't have any development knowledge, it is recommended to join the Discord support server to get help._
 
 ### ⚡ Configuration
 
@@ -14,27 +14,27 @@ Open the configuration file located in the main folder `config.js`.
 
 ```js
 module.exports = {
-    app: {
-        token: 'XXX',
-        playing: 'by Zerio ❤️',
-        global: true,
-        guild: 'xxx'
-    },
+  app: {
+    token: 'XXX',
+    playing: 'by thanhquang28 ❤️',
+    global: true,
+    guild: 'xxx',
+  },
 
-    opt: {
-        DJ: {
-            enabled: false,
-            roleName: 'XXX',
-            commands: []
-        },
-        maxVol: 100,
-        leaveOnEnd: true,
-        loopMessage: false,
-        spotifyBridge: true,
-        defaultvolume: 75,
-        discordPlayer: {}
-    }
-};
+  opt: {
+    DJ: {
+      enabled: false,
+      roleName: 'XXX',
+      commands: [],
+    },
+    maxVol: 100,
+    leaveOnEnd: true,
+    loopMessage: false,
+    spotifyBridge: true,
+    defaultvolume: 75,
+    discordPlayer: {},
+  },
+}
 ```
 
 Basic configuration
@@ -46,14 +46,14 @@ Basic configuration
 
 DJ mode configuration
 
-- `opt/DJ/enabled`, whether the DJ mode should be activated or not 
+- `opt/DJ/enabled`, whether the DJ mode should be activated or not
 - `opt/DJ/roleName`, the name of the DJ role to be used
 - `opt/DJ/commands`, the list of commands limited to members with the DJ role
 
 Advanced configuration
 
 - `opt/maxVol`, the maximum volume that users can define
-- `opt/leaveOnEnd`,  if the bot will leave on finishing the queue
+- `opt/leaveOnEnd`, if the bot will leave on finishing the queue
 - `opt/loopMessage`, if the message that a music is played should be sent when it is looped
 - `opt/spotifyBridge`, takes spotify songs/playlists and searches it on youtube and plays it (highly recommended)
 - `opt/defaultvolume`, is the defaul volume the queue will start at
@@ -73,13 +73,13 @@ Realized with ❤️ by [ZerioDev](https://github.com/ZerioDev).
 
 Please do not withdraw the license and keep the credits on this project.
 
-To have full access to the project and to be able to withdraw the credits a small donation is accepted. 
+To have full access to the project and to be able to withdraw the credits a small donation is accepted.
 
-### 📝 ToDo 
+### 📝 ToDo
 
 - [ ] lyrics command
 
--  [ ] Vote to skip command https://github.com/ZerioDev/Music-bot/issues/187
+- [ ] Vote to skip command https://github.com/ZerioDev/Music-bot/issues/187
 
 - [ ] history commnad
 
@@ -87,4 +87,4 @@ To have full access to the project and to be able to withdraw the credits a smal
 
 - [ ] better button option's
 
-- [ ] more config's for discord player 
+- [ ] more config's for discord player
