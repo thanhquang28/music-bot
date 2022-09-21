@@ -2,7 +2,15 @@ const { Player } = require('discord-player')
 const { Client, GatewayIntentBits } = require('discord.js')
 const express = require('express')
 const app = express()
-app.listen(3000)
+const port = 3000
+
+app.get('/', (req, res) => {
+  res.send('Me Wake Up!')
+})
+
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+})
 
 global.client = new Client({
   intents: [
