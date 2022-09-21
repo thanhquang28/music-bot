@@ -2,7 +2,7 @@ const { Player } = require('discord-player')
 const { Client, GatewayIntentBits } = require('discord.js')
 const express = require('express')
 const app = express()
-const port = 5000
+const port = process.env.PORT || 5000
 
 app.get('/', (req, res) => {
   res.send('Me Wake Up!')
