@@ -1,1 +1,1 @@
-web: npm start --port=5000
+worker: npm start
