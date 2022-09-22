@@ -35,7 +35,7 @@ require('./src/events')
 
 client.login(client.config.app.token)
 
-schedule.scheduleJob('0 */25 1-8 * * *', () => {
+schedule.scheduleJob('0 */25 13-20 * * *', () => {
   Axios.get('https://thanh-bot.herokuapp.com/')
     .then((res) => console.log(res))
     .catch((err) => console.log(err))
