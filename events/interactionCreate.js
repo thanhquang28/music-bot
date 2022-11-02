@@ -82,7 +82,7 @@ module.exports = (client, inter) => {
           new EmbedBuilder()
             .setColor('#ff0000')
             .setDescription(
-              `❌ | You can only use commands in <#music-commands>`
+              `❌ | You can only use commands in <#music-command>`
             ),
         ],
         ephemeral: true,
