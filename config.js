@@ -5,7 +5,7 @@ module.exports = {
     playing: 'by thanhquang28 ❤️',
     global: true,
     guild: 'XXX',
-    allowedChannels: ['742341395557122108'],
+    allowedChannels: ['742341395557122108', '1037376467476168724'],
   },
 
   opt: {
