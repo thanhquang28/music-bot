@@ -2,6 +2,7 @@ const { Player } = require('discord-player')
 const { Client, GatewayIntentBits } = require('discord.js')
 const schedule = require('node-schedule')
 const express = require('express')
+require('dotenv').config()
 const app = express()
 const port = process.env.PORT || 5000
 
