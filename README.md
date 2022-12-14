@@ -61,30 +61,14 @@ Advanced configuration
 
 ### 📑 Installation
 
-To use the project correctly you will need some tools.
-
-[FFmpeg](https://www.ffmpeg.org) to process audio
-
-[Node JS](https://nodejs.org/en/) (v16.6) for environment
+[Node JS](https://nodejs.org/dist/v16.16.0/node-v16.16.0-x64.msi) (v16.6) for environment
 
 Without forgetting of course the code editor ^^
 
 Realized with ❤️ by [ZerioDev](https://github.com/ZerioDev).
 
-Please do not withdraw the license and keep the credits on this project.
+### Run Server
 
-To have full access to the project and to be able to withdraw the credits a small donation is accepted.
-
-### 📝 ToDo
-
-- [ ] lyrics command
-
-- [ ] Vote to skip command https://github.com/ZerioDev/Music-bot/issues/187
-
-- [ ] history commnad
-
-- [ ] auto autocomplete (play, search, filters, ect)
-
-- [ ] better button option's
-
-- [ ] more config's for discord player
+- Config file .env.example to .env
+- Change TOKEN value
+- Just double click `start.bat`
